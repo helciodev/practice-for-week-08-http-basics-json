@@ -58,15 +58,15 @@
   "5": {
     "endpoint": "Ask for the create new product page",
     "request": {
-      "method": "",
-      "URL": "",
-      "headers": null,
-      "body": null
+      "method": "GET",
+      "URL": "/products/new",
+      "headers": false,
+      "body": false
     },
     "response": {
-      "headers": null,
-      "statusCode": null,
-      "body": null
+      "headers": { "Content-Type": "text/html" },
+      "statusCode": 200,
+      "body": true
     }
   },
   "6": {
